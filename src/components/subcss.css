@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1.6;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 3;
+    background-color: rgb(125, 169, 169);
+}
+
+.proinfo{
+  display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 10px;
+}
+
+.proimg{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.sbox{
+  display: flex;
+  flex-direction: row;
+  background: #f6f6f6;
+  padding: 10px;
+}
+
+.scontainer{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 16px;
+  width: 100%;
+  padding: 5px 10px;
+  gap: 10px;
+}
+
+.searchinput{
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.contactItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  }
+
+.contactItem:hover {
+    background-color: #ebebeb;
+  }
+
+.contactName{
+    width: 100%;
+  font-size: 16px;
+  color: black;
+}  
+
+.msgText{
+    width: 100%;
+  font-size: 10px;
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.msgTime{
+    font-size: 12px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  white-space: nowrap;
+}
+
+.pheader{
+     display: flex;
+  flex-direction: row;
+  background: #ededed;
+  padding: 10px;
+  align-items: center;
+}
+
+.chatbox{
+    display: flex;
+  flex-direction: row;
+  background: #f0f0f0;
+  padding: 10px;
+  align-items: center;
+  bottom: 0;
+}
+
+.emojimg{
+    width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.msgcontainer{
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+  background: #e5ddd6;
+}
+
+
+
